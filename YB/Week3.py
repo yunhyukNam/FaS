@@ -91,17 +91,28 @@ def Num13():
             print(i, end=" ")
 
 # 14. 아래 리스트 항목 중에서 5글자 이상의 단어만 출력하기 (while문 또는 for문 사용)
-# 15. 아래 리스트 항목 중에서 소문자만 출력하기 (while문 또는 for문 사용)
-# 16. 아래 리스트 항목 중에서 소문자는 대문자로 대문자는 소문자로 출력하기 (while문 또는 for문 사용)
-
-def Num14_6():
+def Num14():
     Num14_list = ["nice", "study", "python", "anaconda", "!"]
-    Num15_list = ["A", "b", "c", "D", "e", "F", "G", "h"]
-    Num16_list = ["A", "b", "c", "D", "e", "F", "G", "h"]
     
     for i in Num14_list:
-        if (len(Num14_list[i]) >= 5):
-            print(Num14_list[i])
+        if (len(i) >= 5):
+            print(i)
+
+# 15. 아래 리스트 항목 중에서 소문자만 출력하기 (while문 또는 for문 사용)
+def Num15():
+    Num15_list = ["A", "b", "c", "D", "e", "F", "G", "h"]
+    
+    for j in Num15_list:
+        if (ord(j) <= 122 and ord(j) >= 97):
+            print(j)
+
+# 16. 아래 리스트 항목 중에서 소문자는 대문자로 대문자는 소문자로 출력하기 (while문 또는 for문 사용)
+def Num16():
+    Num16_list = ["A", "b", "c", "D", "e", "F", "G", "h"]
+    
+    for k in Num16_list:
+        if (65 <= ord(k) and ord(k) <= 90):
+            print(k)
 
 if __name__ == "__main__":
-    Num14_6()
+    Num16()
