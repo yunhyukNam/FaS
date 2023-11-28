@@ -1,0 +1,121 @@
+{
+  "projectVersion": 1,
+  "files": [
+    "Steganography.apk"
+  ],
+  "treeExpansions": [
+    [
+      "리소스",
+      "Steganography.apk"
+    ],
+    [
+      "res",
+      "리소스",
+      "Steganography.apk"
+    ],
+    [
+      "com.akseltorgard.steganography.async",
+      "소스코드",
+      "Steganography.apk"
+    ],
+    [
+      "mipmap-hdpi-v4",
+      "res",
+      "리소스",
+      "Steganography.apk"
+    ]
+  ],
+  "codeData": {
+    "comments": [],
+    "renames": []
+  },
+  "openTabs": [
+    {
+      "type": "class",
+      "tabPath": "com.akseltorgard.steganography.EncodeActivity",
+      "subPath": "java",
+      "caret": 2818,
+      "view": {
+        "x": 0,
+        "y": 342
+      }
+    },
+    {
+      "type": "class",
+      "tabPath": "com.akseltorgard.steganography.ImageActivity",
+      "subPath": "java",
+      "caret": 1575,
+      "view": {
+        "x": 0,
+        "y": 323
+      }
+    },
+    {
+      "type": "class",
+      "tabPath": "com.akseltorgard.steganography.MainActivity",
+      "subPath": "java",
+      "caret": 1213,
+      "view": {
+        "x": 0,
+        "y": 219
+      }
+    },
+    {
+      "type": "class",
+      "tabPath": "com.akseltorgard.steganography.SendImageActivity",
+      "subPath": "java",
+      "caret": 330,
+      "view": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "type": "class",
+      "tabPath": "com.akseltorgard.steganography.utils.SteganographyUtils",
+      "subPath": "java",
+      "caret": 1895,
+      "view": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "type": "class",
+      "tabPath": "com.akseltorgard.steganography.async.EncodeTask",
+      "subPath": "java",
+      "caret": 732,
+      "view": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "type": "class",
+      "tabPath": "com.akseltorgard.steganography.utils.BitmapUtils",
+      "subPath": "java",
+      "caret": 112,
+      "view": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "type": "resource",
+      "tabPath": "res/mipmap-hdpi-v4/ic_launcher.png",
+      "subPath": "",
+      "caret": 0,
+      "view": {
+        "x": 0,
+        "y": 0
+      }
+    }
+  ],
+  "activeTab": 7,
+  "cacheDir": "Steganography.apk.cache",
+  "enableLiveReload": false,
+  "searchHistory": [
+    "pixel",
+    "steganography"
+  ]
+}
